@@ -15,10 +15,12 @@ class Mywork{
                 System.out.println("B");
             }
             else{
+
                 if( 64 < marks  && marks < 75){
                     System.out.println("B");
                 }
                 else{
+
                     if( 54 < marks  && marks < 65){
                         System.out.println("C");
                     }
