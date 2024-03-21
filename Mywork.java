@@ -11,17 +11,17 @@ class Mywork{
         }
         else{
 
-            if( 64 < marks  && marks < 75){
+            if( marks > 65){
                 System.out.println("B");
             }
             else{
 
-                if( 64 < marks  && marks < 75){
+                if( marks > 55){
                     System.out.println("B");
                 }
                 else{
 
-                    if( 54 < marks  && marks < 65){
+                    if( marks > 45){
                         System.out.println("C");
                     }
                     else{
