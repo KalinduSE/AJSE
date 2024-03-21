@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Workpace{
+class Workspace{
     public static void main(String[] args) {
         
        
