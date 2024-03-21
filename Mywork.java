@@ -17,21 +17,15 @@ class Mywork{
             else{
 
                 if( marks > 55){
-                    System.out.println("B");
+                    System.out.println("C");
                 }
-                else{
-
-                    if( marks > 45){
-                        System.out.println("C");
-                    }
-                    else{
-                            System.out.println("Fail");
-                        }
-                    }
-                }
-            }
+               else{
+                      System.out.println("Fail");
+                   }
+              }
         }
-
+ }
+}
         
 
 
