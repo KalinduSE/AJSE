@@ -3,23 +3,23 @@ import java.util.*;
 class Workspace{
     public static void main(String[] args) {
 
-        Random input = new Random();
-        int n1 = input.nextInt(100);
-        int n2 = input.nextInt(100);
-        int n3 = input.nextInt(100);
+      Scanner input = new Scanner(System.in);
+      System.out.println("Enter the mark");
+      int mark = input.nextInt();
 
-        System.out.println( "First  random number is " +n1 );
-        System.out.println( "Second random number is " +n2 );
-        System.out.println( "Third  random number is " +n3 );
-
-
-
-       int ln = (n1 > n2) ? n1 : n2;
-           ln = (ln > n3) ? ln : n3;
-
-
-        System.out.println( "Lagest number is " +ln );
-
+      switch(mark){
+        case 1 :
+        System.out.println("A");
+        case 2 :
+        System.out.println("B");
+        case 3 :
+        System.out.println("C");
+        case 4 :
+        System.out.println("D");
+        case 5 :
+        System.out.println("E");
+        default :
+        System.out.println("default value");
     }
  }
-
+}
