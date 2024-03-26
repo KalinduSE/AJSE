@@ -1,6 +1,6 @@
 import java.util.*;
 
-class LECEight{
+class lec8{
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
