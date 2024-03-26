@@ -12,15 +12,14 @@ class Workspace{
         System.out.println( "Second random number is " +n2 );
         System.out.println( "Third  random number is " +n3 );
 
-        if (n1>n2 && n1>n3){
-            System.out.println( "Lagest number is " +n1 );
-        }
-        else if (n2>n1 && n2>n3){
-            System.out.println( "Lagest number is " +n2 );
-        }
-        else {
-            System.out.println("Lagest number is " + n3);
-        }
+
+
+       int ln = (n1 > n2) ? n1 : n2;
+           ln = (ln > n3) ? ln : n3;
+
+
+        System.out.println( "Lagest number is " +ln );
+
     }
  }
 
