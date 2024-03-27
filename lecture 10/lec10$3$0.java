@@ -1,4 +1,3 @@
-import java.util.*;
 
 class lec10$3$0 {
     public static void main(String[] args) {
