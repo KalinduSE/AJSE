@@ -7,7 +7,7 @@ public class Lesson3$Ex3 {
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         int odd = number % 2;
-        if (1 < number && number < 100) {
+        if (1 <= number && number <= 100) {
 
             if (odd == 1)
                 System.out.println("Weird");
@@ -17,7 +17,7 @@ public class Lesson3$Ex3 {
                 System.out.println("Weird");
             else
                 System.out.println("Not Weird");
-                
+
         }
     }
 }
