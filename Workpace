@@ -1,28 +1,18 @@
 import java.util.*;
 
 class Mywork{
+
+
     public static void main(String[] args) {
-        
-        Scanner input = new Scanner(System.in);
-        int marks = input.nextInt();
+        Kalindu("kALID");
 
-        if (marks > 74){
-            System.out.println("A"); //75-100
-        }
-        else{
-
-            if( marks > 64){
-                System.out.println("B"); //65-74
-            }
-            else{
-
-                if( marks > 54){
-                    System.out.println("C"); //64-55
-                }
-               else{
-                      System.out.println("Fail");  //54-0
-                   }
-              }
-        }
- }
 }
+
+    public static void Kalidu(int x, int y, int z){}
+    public static void Kalidu(int x, int y){}
+    public static void Kalidu(int x){}
+    public static void Kalidu(String x){}
+    public static void Kalidu(String x, String y){}
+    public static void Kalidu(String x, String y, String z;){}
+    public static void Kalidu(String x, int y){}
+    public static void Kalidu(int y, String z){}
