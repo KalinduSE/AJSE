@@ -8,10 +8,12 @@ public class Main{
         emp1.age = 14;
         emp1.name = "Kalindu";
         emp1.number = "0701231234";
-        System.out.println(emp1.age);
+        System.out.println(emp1.age);z
         emp1.work();
         emp1.talk();
         Employee emp2 = new Employee();
+        int sum = emp1.add(1,3);
+        System.out.println(sum);
     }
 }
 
@@ -32,6 +34,10 @@ class Employee{
 
         System.out.println("Started Talking");
 
+    }
+
+    public int add (int x, int y){
+        return x+y;
     }
 
 

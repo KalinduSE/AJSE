@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a11c3f9-75e0-4c27-8d31-0cf0c9aac768" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lecture17.1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lecture17.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lecture17.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lecture17.1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lecture17.1/Lecture17.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lecture17.1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a11c3f9-75e0-4c27-8d31-0cf0c9aac768" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
