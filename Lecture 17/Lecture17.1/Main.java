@@ -1,44 +1,39 @@
+import java.util.Scanner;
+
 public class Main{
 
-    public static void main(String[] args) {
-
-        int x= 5;
-
-        Employee emp1 = new Employee();
-        emp1.age = 14;
-        emp1.name = "Kalindu";
-        emp1.number = "0701231234";
-        System.out.println(emp1.age);z
-        emp1.work();
-        emp1.talk();
-        Employee emp2 = new Employee();
-        int sum = emp1.add(1,3);
-        System.out.println(sum);
+    public static void main(String[] args){
+        Manager manager1 = new Manager("Kalindu","0711111111", 50000);
+//        System.out.println(manager1.talk("Kalindu","Kethaka"));
+        System.out.println(manager1.name + " " + manager1.telephoneNumber +  " " + manager1.salary);
     }
 }
 
-class Employee{
 
-    String name;
-    int age;
-    String number;
-    float height;
+    class Manager{
+        String name;
+        String telephoneNumber;
+        int salary;
 
-    void work(){
+        public Manager(String name, String telephoneNumber, int salary){
 
-        System.out.println("Started Working");
+            this.name = name;
+            this.telephoneNumber = telephoneNumber;
+            this.salary = salary;
+
+        }
+
+        void call(){
+            System.out.println("Manager is calling");
+        }
+
+         String talk(String string1, String string2 ){
+
+            return string1 + " " + string2;
+
+
+        }
 
     }
 
-    void talk(){
 
-        System.out.println("Started Talking");
-
-    }
-
-    public int add (int x, int y){
-        return x+y;
-    }
-
-
-}
