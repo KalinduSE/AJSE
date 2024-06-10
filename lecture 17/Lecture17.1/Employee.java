@@ -28,6 +28,11 @@ public class Employee  extends Staff{
         return age;
     }
 
+
+    public void talk(){
+        System.out.println("Employee is tolking");
+    }
+
 }
 
 

@@ -18,7 +18,18 @@ public class Main{
         employee1.call();
         employee1.work();
 
-        
+        SalaryDepartment SalaryDepartment1 = new SalaryDepartment("Manager Salary" , 10 , "0112345678");
+        System.out.println(SalaryDepartment1.getName());
+        System.out.println(SalaryDepartment1.getEmpNum());
+        SalaryDepartment1.setEmpNum(11);
+        System.out.println(SalaryDepartment1.getEmpNum());
+
+        TransportationDepartment transportationDepartment1 = new TransportationDepartment("Manager Transport", 5 , "928444343433", 2);
+        System.out.println(transportationDepartment1.getVehicleNumber());
+
+        ResearchProject researchProject1 = new ResearchProject("AI Reasearch", "Kamal",32);
+        System.out.println(researchProject1.getName());
+        employee1.talk();
         }
 
     }
