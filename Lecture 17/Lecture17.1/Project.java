@@ -1,10 +1,10 @@
-public class Project {
+public abstract class Project {
 
     private String name;
     private String managerName;
     private int teamSize;
 
-    public Project(String name, String managerName, int teamSize){
+    public Project(String name, String managerName, int teamSize) {
         this.managerName = managerName;
         this.name = name;
         this.teamSize = teamSize;
@@ -33,4 +33,6 @@ public class Project {
     public void setManagerName(String managerName) {
         this.managerName = managerName;
     }
+
+    public abstract void evaluate();
 }
