@@ -1,4 +1,6 @@
-public class SalaryDepartment extends Department{
+import Package2.Department;
+
+public class SalaryDepartment extends Department {
 
 
     public SalaryDepartment(String name, int empNum, String telephoneNumber) {

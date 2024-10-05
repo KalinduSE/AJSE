@@ -1,3 +1,5 @@
+import Package2.Department;
+
 public class TransportationDepartment extends Department {
 
     private int vehicleNumber;

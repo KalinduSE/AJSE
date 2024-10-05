@@ -1,3 +1,5 @@
+package Package2;
+
 public class Department {
 
     private String name;
@@ -28,5 +30,8 @@ public class Department {
 
     public void setTelephoneNumber(String telephoneNumber){
         this.telephoneNumber = telephoneNumber;
+    }
+
+    public static class CEO {
     }
 }
